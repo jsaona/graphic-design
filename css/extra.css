@@ -109,7 +109,7 @@ img.right {
 
 ul {
   margin-left: 75px;
-  /* width: 500px; */
+  width: 500px;
   line-height: 2;
   color: #000040;
   letter-spacing: 1px;
@@ -249,7 +249,7 @@ button:hover {
     .footer {
       width: 100%;
       background-color: #262626;
-      color: white;
+      color: cornflowerblue;
       text-align: center;
       font-size: 12px;
       padding: 15px;
@@ -303,18 +303,23 @@ button:hover {
     p.content-right {
       padding-top: 30px;
       display: inline-block;
+      padding-bottom: 30px;
     }
 
     p.content-left {
       padding-top: 30px;
       display: inline-block;
+      padding-bottom: 30px;
+      margin-left: 0;
+
 
     }
 
     .apply {
       background-color: blue;
       margin-top: 30px;
-      padding: 45px;
+      padding-top: 45px;
+      padding-bottom: 45px;
   }
 
     #showcase .content-wrap, #section-a .content-wrap {
