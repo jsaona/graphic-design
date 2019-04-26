@@ -109,7 +109,7 @@ img.right {
 
 ul {
   margin-left: 75px;
-  width: 500px;
+  /* width: 500px; */
   line-height: 2;
   color: #000040;
   letter-spacing: 1px;
@@ -142,12 +142,13 @@ p.content-right {
 
 .apply {
   padding: 100px;
+  background-color: blue;
 }
 
 button {
   font-weight: bold;
-  background-color: blue;
-  color: white;
+  background-color:white;
+  color: #1C0077;
   border: none;
   padding: 10px;
   letter-spacing: 1px;
@@ -161,6 +162,7 @@ button {
 button:hover {
   background-color:#1C0077;
   transition: ease 0.3s;
+  color: white;
 
 }
 
@@ -247,36 +249,38 @@ button:hover {
     .footer {
       width: 100%;
       background-color: #262626;
-      color: darkgrey;
+      color: white;
       text-align: center;
-      font-size: 15px;
+      font-size: 12px;
       padding: 15px;
    }
 
 
    /* MOBILE */
-    @media (max-width: 568px) {
-      ul {
-        margin-left: 28px;
-        max-width: 100%;
-        display: unset;
-    }
+   @media (max-width: 768px) {
+
+    
+    ul {
+      margin-left: 28px;
+      display: unset;
+      padding-top: 20px;
+  }
 
     h2, h3 {
       text-align: center;
       color: #1C0077;
       font-family: 'Raleway', sans-serif;
       font-weight: 600;
-      
     }
 
     #left {
       padding: 10px;
+      padding-top: 55px;
     }
 
-    
     #right {
       padding: 10px;
+      padding-top: 55px;
     }
 
     .title-left {
@@ -288,7 +292,6 @@ button:hover {
       margin-right: 0;
     }
 
-
     .apply {
       padding: 22px;
     }
@@ -298,19 +301,29 @@ button:hover {
     }
     
     p.content-right {
-      padding-top: 220px;
+      padding-top: 30px;
+      display: inline-block;
     }
 
     p.content-left {
-      padding-top: 195px;
+      padding-top: 30px;
+      display: inline-block;
 
     }
+
+    .apply {
+      background-color: blue;
+      margin-top: 30px;
+      padding: 45px;
+  }
 
     #showcase .content-wrap, #section-a .content-wrap {
       padding: 38px 1.5em;
   }
 
 }
+
+
 
 
 
