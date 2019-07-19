@@ -132,12 +132,13 @@ p.content-right {
 }
 
 #left {
-  padding: 90px;
+  padding: 10rem 6rem 10rem;
+
 }
 
 #right {
   background-color: #F7F7F7;
-  padding: 90px;
+  padding: 10rem 6rem 10rem;
 }
 
 .apply {
@@ -276,12 +277,12 @@ button:hover {
     }
 
     #left {
-      padding: 10px;
+      padding: 10rem 6rem 10rem;      
       padding-top: 55px;
     }
 
     #right {
-      padding: 10px;
+      padding: 10rem 6rem 10rem;
       padding-top: 55px;
     }
 
