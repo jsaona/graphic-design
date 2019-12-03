@@ -6,21 +6,26 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Graphic Design program</title>
     <link href="style.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 </head>
 <body>
     <header>
-        <nav>
-                <img class="logo" src="./images/logo.svg" alt="logo">
-
-            <ul class="nav__links">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Company</a></li>
-                <li><a href="#">Sign up</a></li>
-                <li><a href="#"><button>Login</button></a></li>
-
-            </ul>
-        </nav>
+                <div class="topnav">
+                <img src="images/logo.svg" class="logo">
+                <div id="myLinks">
+                    <a class="nav-links" href="#news">Home</a>
+                    <a class="nav-links" href="#contact">About</a>
+                    <a class="nav-links" href="#news">Company</a>
+                    <a class="nav-links" href="#contact">Sign Up</a>
+                    <a class="nav-links" href="#about"><button>Login</button></a>
+                    
+                </div>
+                <a href="javascript:void(0);" class="icon">
+                    <i class="fa fa-bars"></i>
+                </a>
+                </div>
+            </div>
 
         <div class="intro-wrap">
             <h1 class="title">Become a Graphic Designer</h1>
@@ -32,7 +37,7 @@
 
     
 
-    <section>
+    <section class="box">
         <div class="wrapper">
             <div class="column">
                 <img class="design-icon" src="images/icons/sketch.svg" alt="icon made by Freepik from www.flaticon.com">
@@ -52,12 +57,10 @@
         </div>
     </section>
 
-    <hr/>
-
     <section id="left">
         <h2 class="title-left">In this program, you will learn:</h2>
         
-        <img class="right" align="right" src="images/graphicdesign.jpg" alt="designer" width="550px" height="auto">    
+        <img class="right" align="right" src="images/graphicdesign.jpg" alt="designer" width="450px" height="auto">    
         <br>
             <ul>
                 <li class="list">learn versatile design skills that can be applied to magazine and newspaper publishing, catalogue production, promotional publication design, advertising, and design for digital media.</li>
@@ -71,14 +74,14 @@
 
     <section id="right">
         <h2 class="title-right">Digital Graphic with Illustrator</h2>
-        <img class="left" align="left" src="images/illustrator.jpg" alt="drawing" width="550px" height="auto">
+        <img class="left" align="left" src="images/illustrator.jpg" alt="drawing" width="450px" height="auto">
         <br>
             <p class="content-right">Learn to draw, delineate, and design electronically with this standard vector-based illustration and graphic design program. Create curves, lines, and shapes to make objects that can be colored, manipulated, moved, duplicated, scaled, and rotated, generating smooth-lined, clean, scalable graphics or artwork for both print and the Web. Use this course to make Illustrator an integral part of your digital graphics tool kit. </p>   
     </section>
 
     <section id="left">    
         <h2 class="title-left">Digital Imaging with Photoshop</h2>
-        <img class="right" align="right" src="images/photoshop.jpg" alt="photoshop" width="550px" height="auto">
+        <img class="right" align="right" src="images/photoshop.jpg" alt="photoshop" width="450px" height="auto">
         <br>
             <p class="content-left">Acquire a working knowledge of this industry-standard software, used for print, webpages, animation, presentation, video production, and enhancement of traditional and digital photography. Explore scanning and color correction, tools and layers for image compositing, elemental retouching, and type treatments. </p>
     </section>
@@ -113,23 +116,23 @@
 
         <div id="container">
         <form>      
-                <label>Name</label>
-                <input name="name" placeholder="Type Here">
-                        
-                <label>Email</label>
-                <input name="email" type="email" placeholder="Type Here">
-                        
-                <label>Message</label>
-                <textarea name="message" placeholder="Type Here"></textarea>
-                        
-                <input class="btn" name="submit" type="submit" value="Submit">
+            <label>Name</label>
+            <input name="name" placeholder="Type Here">
+                    
+            <label>Email</label>
+            <input name="email" type="email" placeholder="Type Here">
+                    
+            <label>Message</label>
+            <textarea name="message" placeholder="Type Here"></textarea>
+                    
+            <input class="btn" name="submit" type="submit" value="Submit">
                     
             </form>
         </div>
     </section>
 
     <section class="section-footer">
-        <img class="footer-logo" src="images/logo.svg" alt="logo">
+        <img class="footer-logo flex" src="images/logo.svg" alt="logo">
         <ul class="nav__links-footer">
             <li><a href="#">Company</a></li>
             <li><a href="#">Contact Us</a></li>
@@ -140,6 +143,6 @@
 
         <p class="footer-text">Design and developed by Jonathan Saona</p>
     </section>
-
+    <script src="app.js"></script>
 </body>
 </html>
